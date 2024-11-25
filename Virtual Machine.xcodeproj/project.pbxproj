@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D81F30852C99658000ABA485 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D81F30842C99658000ABA485 /* main.c */; };
+		D81F308C2C9965A700ABA485 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = D81F308B2C9965A700ABA485 /* makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		D81F30812C99658000ABA485 /* Virtual Machine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Virtual Machine"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81F30842C99658000ABA485 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D81F308B2C9965A700ABA485 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				D81F30842C99658000ABA485 /* main.c */,
+				D81F308B2C9965A700ABA485 /* makefile */,
 			);
 			path = "Virtual Machine";
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D81F308C2C9965A700ABA485 /* makefile in Sources */,
 				D81F30852C99658000ABA485 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
